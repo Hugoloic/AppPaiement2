@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppPaiement2", "AppPaiement2\AppPaiement2.csproj", "{2FC05111-E238-44FE-9EF6-0816A4165BF9}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppConsoleLivres", "..\..\AppConsoleLivres\AppConsoleLivres\AppConsoleLivres.csproj", "{2C730E20-3EC1-4B2F-A9D6-F6EFF40FFD0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2FC05111-E238-44FE-9EF6-0816A4165BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FC05111-E238-44FE-9EF6-0816A4165BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FC05111-E238-44FE-9EF6-0816A4165BF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C730E20-3EC1-4B2F-A9D6-F6EFF40FFD0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C730E20-3EC1-4B2F-A9D6-F6EFF40FFD0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C730E20-3EC1-4B2F-A9D6-F6EFF40FFD0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C730E20-3EC1-4B2F-A9D6-F6EFF40FFD0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
