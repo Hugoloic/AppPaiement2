@@ -17,7 +17,7 @@ namespace AppPaiement2
         }
         public virtual void AfficherDetails() 
         {
-            Console.WriteLine($"Montant: {Montant}, Description {Description}");
+            Console.WriteLine($"le solde de votre carte est de : Montant {Montant}, Description {Description}");
         }
     }
 }

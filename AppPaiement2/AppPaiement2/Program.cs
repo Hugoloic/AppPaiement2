@@ -14,6 +14,14 @@ internal class Program
         Paiement2.AfficherDetails();
         Paiement3.AfficherDetails();
 
+        Paypal paiementpaypal1 = new Paypal(500.50, "tranfert d'achat", "hugoloic@gmail.com");
+        Paypal paiementpaypal2 = new Paypal(1000.00, "achat des chaussures", "nanaloic@gmail.com");
+
+        paiementpaypal1.AfficherDetails();
+        paiementpaypal2.AfficherDetails();
+
+
+
 
 
 

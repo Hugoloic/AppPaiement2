@@ -18,7 +18,7 @@ namespace AppPaiement2
         }
         public override void AfficherDetails()
         {
-            Console.WriteLine($": Montant {Montant}, Description: {Description}, NumeroCarte: {NumeroCarte}");
+            Console.WriteLine($"le solde de votre carte de credit est : Montant {Montant}, Description: {Description}, NumeroCarte: {NumeroCarte}");
         }
     }
 }
