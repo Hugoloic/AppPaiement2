@@ -17,7 +17,7 @@ namespace AppPaiement2
         }
         public override void AfficherDetails()
         {
-            Console.WriteLine($": Montant {Montant}, Description: {Description}, Courriel: {Courriel}");
+            Console.WriteLine($"compte paypal : Montant {Montant}, Description: {Description}, Courriel: {Courriel}");
 
         }
     }

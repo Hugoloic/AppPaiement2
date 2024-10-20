@@ -21,6 +21,18 @@ internal class Program
         paiementpaypal2.AfficherDetails();
 
 
+        Utilisateur utilisateur = new Utilisateur("HUGO LOIC");
+
+        utilisateur.AjouterPaiement(Paiement1);
+        utilisateur.AjouterPaiement(Paiement2);
+        utilisateur.AjouterPaiement(Paiement3);
+        utilisateur.AjouterPaiement(paiementpaypal1);
+        utilisateur.AjouterPaiement(paiementpaypal2);
+
+
+        utilisateur.AfficherInfos();
+
+
 
 
 
